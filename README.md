@@ -66,7 +66,7 @@ python3 scripts/check_repository.py
 python3 -m unittest discover -s tests -v
 ```
 
-See [Contributing](CONTRIBUTING.md) before editing and [Publishing](docs/PUBLISHING.md) to place the repository in a GitHub account. This package does not itself claim that a remote repository has been published.
+The source repository is [freedomyamato/tensegrity-from-scratch](https://github.com/freedomyamato/tensegrity-from-scratch). See [Contributing](CONTRIBUTING.md) before editing and [Publishing](docs/PUBLISHING.md) for updates or copies in another account.
 
 ## License and attribution
 

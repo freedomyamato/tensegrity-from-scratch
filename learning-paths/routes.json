@@ -1,0 +1,11 @@
+{
+  "default": "solar-builder",
+  "routes": {
+    "solar-builder": [0,1,2,3,4,5,6,7,9,10,11],
+    "community-facilitator": [0,1,2,3,4,9,10,11],
+    "prototype-technician": [0,1,2,3,4,5,6,9,10,11],
+    "robotics": [0,1,2,3,4,5,6,8,11],
+    "research": [0,1,2,3,4,5,6,11],
+    "full-core": [0,1,2,3,4,5,6,7,8,9,10,11]
+  }
+}
