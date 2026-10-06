@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Tensegrity Learn",
+  "short_name": "Tensegrity",
+  "description": "48 practical tensegrity lessons, quizzes and mobile labs.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#0d2035",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

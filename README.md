@@ -8,6 +8,8 @@ A teaching repository designed for Ivan’s solar-sculpture, community-learning 
 
 ## Start in five minutes
 
+**[Open the Android/iPhone learning app](https://tensegrity-learn-mobile.toyspredator.chatgpt.site).** See [Mobile app](docs/MOBILE_APP.md) for installation. App source, offline support and phone-based labs are in [app/](app/README.md).
+
 1. Extract the package and open **[reader.html](reader.html)** in a browser for the searchable course reader. It needs no server, login or internet connection.
 2. Read **[Getting started](docs/START_HERE.md)** or **[中文入门](docs/START_HERE_ZH.md)**.
 3. Choose a route in **[Learning paths](learning-paths/README.md)**.
