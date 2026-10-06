@@ -1,0 +1,13 @@
+{
+  "name": "tensegrity-learning-plugins",
+  "owner": {
+    "name": "Ivan"
+  },
+  "plugins": [
+    {
+      "name": "tensegrity-teaching",
+      "source": "./plugins/tensegrity-teaching",
+      "description": "Teach tensegrity through lessons, models, quizzes and observed progress."
+    }
+  ]
+}

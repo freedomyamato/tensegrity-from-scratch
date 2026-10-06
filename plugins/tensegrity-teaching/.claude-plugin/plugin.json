@@ -1,0 +1,9 @@
+{
+  "name": "tensegrity-teaching",
+  "version": "0.1.0",
+  "description": "Bilingual tensegrity lesson planning, tabletop pilot guidance, quizzes and evidence-based learner review.",
+  "author": {
+    "name": "Ivan"
+  },
+  "license": "MIT"
+}
