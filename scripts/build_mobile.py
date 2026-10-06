@@ -96,6 +96,7 @@ def main():
   content=re.sub(r'\[([^\]]*)\]\(([^)]+)\)',rewrite_link,content)
   (app/'resources'/name).write_text(content);data['resources'].append({'file':name,'title':title})
  (app/'data.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
+ (app/'course.js').write_text('window.TensegrityCourse='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')
  manifest={'id':'./','name':'Tensegrity Learn','short_name':'Tensegrity','description':'48 practical tensegrity lessons, quizzes and mobile labs.','lang':'en','start_url':'./','scope':'./','display':'standalone','background_color':'#f3f6fa','theme_color':'#0d2035','icons':[{'src':'./icons/icon-192.png','sizes':'192x192','type':'image/png','purpose':'any'},{'src':'./icons/icon-512.png','sizes':'512x512','type':'image/png','purpose':'any maskable'}]}
  (app/'manifest.webmanifest').write_text(json.dumps(manifest,indent=2)+'\n')
  # Icons are geometric marks generated once; no icon-generation package needed.
