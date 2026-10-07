@@ -14,6 +14,7 @@ jobs:
       - run: python scripts/check_repository.py
       - run: node --test tests/mobile_models.test.cjs
       - run: node --test tests/mobile_offline.test.cjs
+      - run: node tests/mobile_assistant.test.cjs
       - run: python scripts/check_mobile.py
       - run: |
           python scripts/build_course.py
